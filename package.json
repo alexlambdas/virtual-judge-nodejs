@@ -1,0 +1,32 @@
+{
+    "name": "virtual-judge-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sonar-scanner:local": "sonar-scanner -Dsonar.host.url=http://localhost:9012/",
+        "test-cc-candivide-approach1": "jest ./src/codechef/basic-programming/CANDIVIDE/test/index.approach1.test.js --coverage",
+        "test-cc-proc18a-approach1": "jest ./src/codechef/arrays/PROC18A/test/index.approach1.test.js --coverage",
+        "test-sj-cpttrn1-approach1": "jest ./src/spoj/basics/CPTTRN1/test/index.approach1.test.js --coverage",
+        "test-sj-cpttrn2-approach1": "jest ./src/spoj/basics/CPTTRN2/test/index.approach1.test.js --coverage",
+        "test-sj-cpttrn2-approach2": "jest ./src/spoj/basics/CPTTRN2/test/index.approach2.test.js --coverage",
+        "test-sj-cpttrn7-approach1": "jest ./src/spoj/basics/CPTTRN7/test/index.approach1.test.js --coverage",
+        "test-me-curryng-approach1": "jest ./src/me/CURRYNG/test/index.approach1.test.js --coverage",
+        "test-me-innerjoin-approach1": "jest ./src/me/INNER_JOIN/test/index.approach1.test.js --coverage",
+        "test-me-innerjoin-approach2": "jest ./src/me/INNER_JOIN/test/index.approach2.test.js --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexlambdas/virtual-judge-nodejs.git"
+    },
+    "author": "alexLambdas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexlambdas/virtual-judge-nodejs/issues"
+    },
+    "homepage": "https://github.com/alexlambdas/virtual-judge-nodejs#readme",
+    "devDependencies": {
+        "jest": "^29.6.1",
+        "sonarqube-scanner": "^3.0.1"
+    }
+}
