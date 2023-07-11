@@ -6,7 +6,10 @@
     "scripts": {
         "sonar-scanner:local": "sonar-scanner -Dsonar.host.url=http://localhost:9012/",
         "test-cc-candivide-approach1": "jest ./src/codechef/basic-programming/CANDIVIDE/test/index.approach1.test.js --coverage",
+        "test-cc-num239-approach1": "jest ./src/codechef/arrays/NUM239/test/index.approach1.test.js --coverage",
+        "test-cc-paireq-approach1": "jest ./src/codechef/arrays/PAIREQ/test/index.approach1.test.js --coverage",
         "test-cc-proc18a-approach1": "jest ./src/codechef/arrays/PROC18A/test/index.approach1.test.js --coverage",
+        "test-cc-recentcont-approach1": "jest ./src/codechef/arrays/RECENTCONT/test/index.approach1.test.js --coverage",
         "test-sj-cpttrn1-approach1": "jest ./src/spoj/basics/CPTTRN1/test/index.approach1.test.js --coverage",
         "test-sj-cpttrn2-approach1": "jest ./src/spoj/basics/CPTTRN2/test/index.approach1.test.js --coverage",
         "test-sj-cpttrn2-approach2": "jest ./src/spoj/basics/CPTTRN2/test/index.approach2.test.js --coverage",
